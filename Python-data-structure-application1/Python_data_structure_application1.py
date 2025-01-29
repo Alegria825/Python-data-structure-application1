@@ -1,6 +1,9 @@
+#Estructura de datos
 
-print("Hello world Alegria")
-
-x = 2 + 2
-x = x - 2
-print(x)
+NUM = 8
+nums = [0] * NUM
+total = 0
+for i in range(NUM):
+    nums[i] = int(input("Ingrese un digito: "))
+    total += nums[i]
+    print("El total de numeros es:", total)
